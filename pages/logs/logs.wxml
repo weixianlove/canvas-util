@@ -1,0 +1,8 @@
+<!--logs.wxml-->
+<image src='../images/img1.jpg' style='width: 750rpx;height: 500rpx;' mode='aspectFill'></image>
+
+
+
+<view class='save-button' bindtap='saveAction'>保存</view>
+
+<canvas wx:if='{{canvasShow}}' canvas-id="shareCanvas" style="width:{{screenWidth}}px;height:{{screenHeight}}px;margin-left:750rpx;"></canvas>

@@ -1,0 +1,14 @@
+.save-button {
+    position: fixed;
+    background-color: #00a693;
+    height: 96rpx;
+    line-height: 96rpx;
+    width: 650rpx;
+    bottom: 22rpx;
+    left: 50rpx;
+    color: white;
+    font-size: 32rpx;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 6rpx;
+}
